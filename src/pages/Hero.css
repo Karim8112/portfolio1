@@ -1,0 +1,64 @@
+.hero1 {
+  height: 160vh;
+  position: relative;
+}
+.KarimTitle {
+  color: #9747ff;
+  font-size: 52px;
+  z-index: 1;
+  font-family: "IBM Plex Mono", monospace;
+  position: absolute;
+  z-index: 10;
+  left: 100px;
+  top: -300px;
+  font-weight: 500;
+  text-shadow: 0px 0px 100px rgba(248, 248, 248, 0.5);
+}
+
+.figmaScreen {
+  border-radius: 10px;
+
+  position: absolute;
+  z-index: 11;
+  right: 60px;
+  bottom: 250px;
+  /* background-image: url("./assets/iamges/figma.png"); */
+  background-size: contain;
+  width: 847.3px;
+  height: 391.86px;
+  box-shadow: 0px -11.56px 69.36px #3333333a, 0px 11.56px 69.36px #3333333a,
+    -11.56px 0px 69.36px #3333333a, -11.56px 0px 69.36px #9747ff3d;
+
+  animation: smoothCycle 6s linear infinite;
+  transition: background-image 0.5 ease-in;
+}
+/* 
+@keyframes smoothCycle {
+  0% {
+    background-image: url("./assets/iamges/figma1.png");
+  }
+  16.6% {
+    background-image: url("./assets/iamges/figma2.png");
+  }
+  33.3% {
+    background-image: url("./assets/iamges/figma3.png");
+  }
+  50% {
+    background-image: url("./assets/iamges/figma4.png");
+  }
+  66.6% {
+    background-image: url("./assets/iamges/figma5.png");
+  }
+  83.3% {
+    background-image: url("./assets/iamges/figma6.png");
+  }
+  100% {
+    background-image: url("./assets/iamges/figma1.png");
+  }
+} */
+
+.figmaScreen img {
+  width: 100%;
+  height: 100%;
+  transition: all 0.5s ease-in;
+}

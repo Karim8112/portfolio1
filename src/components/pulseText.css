@@ -1,0 +1,26 @@
+.green {
+  /* background: #66ff99; */
+}
+.circle {
+  text-align: center;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 1px 1px #0000001a;
+  font-family: sans-serif !important;
+}
+.pulse {
+  animation: pulse-animation 1s infinite;
+}
+
+@keyframes pulse-animation {
+  0% {
+    box-shadow: 0 0 0 0px rgba(151, 71, 255, 0.308);
+  }
+  100% {
+    box-shadow: 0 0 0 40px rgba(80, 80, 80, 0);
+  }
+}

@@ -1,0 +1,11 @@
+.enterpriseText {
+  width: 100%;
+}
+
+.sliderM:hover {
+  cursor: pointer;
+}
+
+.selectedImgEnt {
+  box-shadow: 0px 0 50px #9747ff69;
+}
